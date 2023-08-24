@@ -32,7 +32,7 @@ app.post('/vocab', async(req, res) =>{
 
 
 mongoose.
-connect("mongodb+srv://baalyshbhon:Diosesamor8090@cluster0.qvryjfv.mongodb.net/programming_vocab?retryWrites=true&w=majority")
+connect("LINK TO DB CLUSTER")
 .then(()=>{
     app.listen(3000, () => {
         console.log(`listening in port: 3000`)
